@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('fAROUK IS REALLY UNSTOPPABLE!');
 });
 app.use('/api', routes);
 app.use((err, req, res, next) => {
