@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { createHash } from 'crypto';
 import { validationResult, matchedData } from 'express-validator';
 import { generateToken, verifyToken } from './tokenHandler.js';
